@@ -1,0 +1,58 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Conda environments
+*.conda
+*.yml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data, models, and logs
+*.csv
+*.tsv
+*.npy
+*.npz
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.log
+logs/
+runs/  # For TensorBoard
+
+# OS and WSL specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment config
+.env
+.env.*
+
+# Editor/IDE folders
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# Jupyter export formats
+*.html
+*.pdf
+
+# Temporary or lock files
+*.bak
+*.swp
+*.lock
